@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+*!/usr/bin/env python3
+* -*- coding: utf-8 -*-
 #
 # python-soundfile documentation build configuration file, created by
 # sphinx-quickstart on Sun Sep 21 19:26:48 2014.
@@ -285,3 +285,4 @@ import fake_numpy
 sys.modules['numpy'] = sys.modules['fake_numpy']
 import fake__soundfile
 sys.modules['_soundfile'] = sys.modules['fake__soundfile']
+ 
